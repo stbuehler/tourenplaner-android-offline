@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_locations">
+        <EditTextPreference
+            android:key="mapfile"
+            android:title="@string/pref_map_location" />
+        <EditTextPreference
+            android:key="graphfile"
+            android:title="@string/pref_graph_location" />
+        <EditTextPreference
+            android:key="osmfinddirectory"
+            android:title="@string/pref_osmfind_location" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

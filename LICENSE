@@ -1,0 +1,31 @@
+
+Related Projects:
+ * ToureNPlaner Android application: https://github.com/ToureNPlaner/tourenplaner-android
+ * ToureNPlaner CHConstructor (for CH optimized shortest path search): https://github.com/ToureNPlaner/CHConstructor
+
+Used Libraries:
+ * mapsforge
+   Official upstream: https://code.google.com/p/mapsforge/
+   Using (further modified) fork from: https://github.com/ToureNPlaner/mapsforge-fork
+ * ActionBarSherlock: http://actionbarsherlock.com
+ * High Performance Primitive Collections: http://labs.carrotsearch.com/hppc.html
+ * osmfind: Diplomarbeit by Daniel Bahrdt, no public repository yet.
+
+Special files:
+res/
+	drawable-*/markerstart.png
+	drawable-*/markerend.png
+	drawable-*/icon.png
+		From ToureNPlaner project: start and end marker, application icon
+	drawable-*/holo_*.png
+		From android designs: http://developer.android.com/design/downloads/index.html
+
+For everything else: The MIT License (MIT)
+
+Copyright (c) Stefan Bühler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

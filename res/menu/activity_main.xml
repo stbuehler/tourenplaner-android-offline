@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/search"
+        android:actionLayout="@layout/action_search"
+        android:icon="@drawable/holo_dark_2_action_search"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/search"/>
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/holo_dark_5_content_discard"
+        android:showAsAction="always"
+        android:title="@string/action_clear"/>
+    <item
+        android:id="@+id/action_follow_gps"
+        android:icon="@drawable/holo_dark_10_device_access_location_searching"
+        android:showAsAction="always"
+        android:title="@string/action_follow_gps"/>
+    <item
+        android:id="@+id/action_activate_gps"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@drawable/holo_dark_10_device_access_location_searching"
+        android:showAsAction="never"
+        android:title="@string/action_activate_gps"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/holo_dark_2_action_settings"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_benchmark"
+        android:showAsAction="never"
+        android:title="@string/benchmark" android:visible="false"/>
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/holo_dark_2_action_about"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+
+</menu>

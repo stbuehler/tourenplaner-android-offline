@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Offline ToureNPlaner</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_follow_gps">Follow GPS</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_activate_gps">Activate GPS</string>
+    <string name="action_about">About</string>
+
+    <string name="map_file_error">Couldn\'t open map file</string>
+    <string name="search">Search</string>
+    <string name="searchable_hint">Search location</string>
+
+    <string name="about_text">You need a .map file from http://download.mapsforge.org/maps/, a graph file, and a search database.)</string>
+    
+    <string name="way_text_overlay">"Distance: %1$s Time: %2$s"</string>
+
+    <string name="pref_locations">File locations (see About section for download links)</string>
+    <string name="pref_map_location">Path to the mapsforge map file</string>
+    <string name="pref_graph_location">Path to the graph file</string>
+    <string name="pref_osmfind_location">Path to the directory containing the search database</string>
+
+    <string name="select_file">Please select a file</string>
+    <string name="select_directory">Please select a directory</string>
+
+    <string name="pref_notset">"&lt;not set&gt;"</string>
+
+    <string name="benchmark">Benchmark</string>
+    <string name="benchmark_run">Run</string>
+
+    <string name="using_gps">Using GPS position</string>
+    <string name="searching_gps">Searching for GPS position</string>
+    <string name="unused_gps">Not using GPS position</string>
+</resources>
